@@ -23,4 +23,11 @@
 /*  clamp (minimum value, preferred value, maximum value)*/
 :root {
     font-size: clamp(1rem, 3vw, 2rem);
+     /*  custom property */
+     --main-color: rgb(14, 158, 229);
+}
+
+/* access custom property */
+.logo {
+    background-color: var(--main-color, rgb(14, 158, 229));
 }
