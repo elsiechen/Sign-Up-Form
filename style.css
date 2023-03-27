@@ -1,0 +1,14 @@
+/* using two different files for each font to maximize browser compatibility; */
+@font-face {
+    font-family: 'sweetsmile';
+    src: url('fonts/sweets_smile-webfont.woff2') format('woff2'),url('fonts/sweets_smile-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hugmetight';
+    src: url('fonts/hug_me_tight_-_ttf-webfont.woff2') format('woff2'),url('fonts/hug_me_tight_-_ttf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
