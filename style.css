@@ -25,9 +25,60 @@
     font-size: clamp(1rem, 3vw, 2rem);
      /*  custom property */
      --main-color: rgb(14, 158, 229);
+     --second-color: rgb(103,71,54);
+     --third-color: rgb(243,244,246)
 }
 
-/* access custom property */
-.logo {
-    background-color: var(--main-color, rgb(14, 158, 229));
+.container {
+    display: flex;
+}
+
+.form {
+    width: 60vw;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    z-index: -1;
+}
+.logo-container {
+    position: absolute;
+    top: 20vh;
+    width: 40vw;
+    height: 30vh;    
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(97,110,125,0.6);
+}
+
+.logo{
+    filter: drop-shadow(15px 15px 15px white);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.store-name{
+    margin: 2rem 0.5rem 0 0;
+    font-family: sweetsmile;
+    font-size: 1.8rem;
+    color: var(--second-color);
+    filter: drop-shadow(5px 5px 15px white);
+}
+
+.slogan {
+    font-family: hugmetight;
+    font-size: 0.7rem;
+    color: var(--third-color);
 }
