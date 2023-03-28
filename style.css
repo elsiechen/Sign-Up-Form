@@ -26,7 +26,7 @@
      /*  custom property */
      --main-color: rgb(14, 158, 229);
      --second-color: rgb(103,71,54);
-     --third-color: rgb(243,244,246)
+     --third-color: rgb(243,244,246);
 }
 
 .container {
@@ -44,8 +44,9 @@
 .img {
     position: absolute;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     width: 40vw;
+    height: 100vh;
     z-index: -1;
 }
 .logo-container {
@@ -59,7 +60,23 @@
     background-color: rgba(97,110,125,0.6);
 }
 
+.footer {
+    position: absolute;
+    top:95vh;
+    left: 13vw;
+    width: 40vw;
+    font-family: hugmetight;
+    color: var(--third-color, white);
+    font-size: 0.6rem;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--third-color);
+}
+
 .logo{
+    /* shadow around logo */
     filter: drop-shadow(15px 15px 15px white);
 }
 
@@ -73,12 +90,13 @@
     margin: 2rem 0.5rem 0 0;
     font-family: sweetsmile;
     font-size: 1.8rem;
-    color: var(--second-color);
+    color: var(--second-color, rgb(97, 30, 30));
     filter: drop-shadow(5px 5px 15px white);
 }
 
 .slogan {
     font-family: hugmetight;
     font-size: 0.7rem;
-    color: var(--third-color);
+    color: var(--third-color, white);
 }
+
