@@ -121,6 +121,8 @@
     border-radius: 0.5rem;
     padding: 1.5rem 2rem;
     box-shadow: 2px 3px 5px silver;
+    /* height: 60vh;
+    width: 55vw; */
 }
 
 .form-container p{
@@ -195,11 +197,16 @@ label[for='terms'] {
     cursor: pointer;
     background-color: var(--third-color);
     color: var(--second-color);
-    border: 2rem transparent var(--second-color);
+    border: 0.1px transparent var(--second-color);
 }
 p.direct-to-login {
     font-size: 0.1rem;
     color: var(--fourth-color);
+}
+
+p.direct-to-login a {
+    color: var(--second-color);
+    font-weight: bolder;
 }
 
 /* prefixed for browser compatibility */
