@@ -39,6 +39,8 @@
 
 .img-container {
     position: relative;
+    width: 40vw;
+    height: 100vh;
 }
 
 .img {
@@ -62,9 +64,8 @@
 
 .footer {
     position: absolute;
-    top:95vh;
-    left: 13vw;
-    width: 40vw;
+    bottom: 0.5rem;
+    left: 7rem;
     font-family: hugmetight;
     color: var(--third-color, white);
     font-size: 0.6rem;
@@ -98,5 +99,15 @@ a {
     font-family: hugmetight;
     font-size: 0.7rem;
     color: var(--third-color, white);
+}
+
+/* introduction and form */
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    /* margin: 3rem 2rem 1rem 1rem; */
 }
 
