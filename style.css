@@ -274,10 +274,6 @@ input[type="checkbox"]:hover {
           width: 100vw;
           height: 100vh;
       }
-      
-      .form-container{
-        height: 100vh;
-      }
 
       label, p.direct-to-login {
         font-size: 0.7rem;
