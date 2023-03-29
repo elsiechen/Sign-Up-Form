@@ -22,7 +22,9 @@
 /*  fluid typography using clamp() without using media queries */
 /*  clamp (minimum value, preferred value, maximum value)*/
 :root {
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-family: sans-serif;
+
      /*  custom property */
      --main-color: rgb(14, 158, 229);
      --second-color: rgb(103,71,54);
@@ -66,7 +68,7 @@
     position: absolute;
     bottom: 0.5rem;
     left: 7rem;
-    font-family: hugmetight;
+    font-family: hugmetight, sans-serif;
     color: var(--third-color, white);
     font-size: 0.6rem;
 }
@@ -89,14 +91,14 @@ a {
 
 .store-name{
     margin: 2rem 0.5rem 0 0;
-    font-family: sweetsmile;
+    font-family: sweetsmile,sans-serif;
     font-size: 1.8rem;
     color: var(--second-color, rgb(97, 30, 30));
     filter: drop-shadow(5px 5px 15px white);
 }
 
 .slogan {
-    font-family: hugmetight;
+    font-family: hugmetight, sans-serif;
     font-size: 0.7rem;
     color: var(--third-color, white);
 }
@@ -105,9 +107,13 @@ a {
 .left-container {
     display: flex;
     flex-direction: column;
+    padding: 2.5rem 1rem 2rem 2rem;
 }
 
 .article {
-    /* margin: 3rem 2rem 1rem 1rem; */
+    margin-bottom: 1rem;
 }
 
+.article + p{
+    margin-bottom: 1rem;
+}
