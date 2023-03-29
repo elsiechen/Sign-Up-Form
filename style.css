@@ -117,3 +117,42 @@ a {
 .article + p{
     margin-bottom: 1rem;
 }
+
+.form-container {
+    background-color: var(--third-color);
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.form-container p{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+label {
+    display: block;
+    font-size: 0.6rem;
+}
+
+input[type='checkbox'] {
+    display: inline;
+}
+
+.form-control {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vh 10vh;
+
+}
+
+input[type='text'], 
+input[type='email'],
+input[type='tel'],
+input[type='password'] {
+    width: 20vw;
+    border: 1px solid #dddcdc;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    height: 1rem;
+    padding: 0.3rem 0.5rem;
+}
