@@ -29,6 +29,7 @@
      --main-color: rgb(14, 158, 229);
      --second-color: rgb(103,71,54);
      --third-color: rgb(243,244,246);
+     --fourth-color:rgb(146,145,145);
 }
 
 .container {
@@ -71,11 +72,6 @@
     font-family: hugmetight, sans-serif;
     color: var(--third-color, white);
     font-size: 0.6rem;
-}
-
-a {
-    text-decoration: underline;
-    color: var(--third-color);
 }
 
 .logo{
@@ -134,7 +130,7 @@ a {
 label {
     display: block;
     font-size: 0.1rem;
-    color: #929191;
+    color: var(--fourth-color);
 }
 
 input[type='checkbox'] {
@@ -161,10 +157,40 @@ input[type='password'] {
 }
 
 /* use ':has' pseudo-class to change label color when input:focus */
-.form-control>div:has(input:focus) label{
+.form-control>div:has(input:focus) label,
+div.terms:has(input:focus) label{
     color: black;
 }
 
 input:focus {
     box-shadow: 2px 2px 3px silver;
+}
+
+.terms {
+    margin-bottom: 1rem;
+}
+
+a{
+    color: var(--fourth-color);
+    text-decoration: underline;
+}
+
+label[for='terms'] {
+    display: inline;
+}
+
+.sign-up-btn button {
+    background-color: var(--second-color);
+    color: var(--third-color);
+    padding: 0.7rem 2.5rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    box-shadow: 2px 2px 3px silver;
+    margin: 1rem 0 2rem 0;
+}
+
+p.transfer {
+    font-size: 0.1rem;
+    color: var(--fourth-color);
 }
