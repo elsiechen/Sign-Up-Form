@@ -22,7 +22,7 @@
 /*  fluid typography using clamp() without using media queries */
 /*  clamp (minimum value, preferred value, maximum value)*/
 :root {
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 1.5vw, 2rem);
     font-family: sans-serif;
 
      /*  custom property */
@@ -107,31 +107,34 @@ a {
 .left-container {
     display: flex;
     flex-direction: column;
-    padding: 2.5rem 1rem 2rem 2rem;
+    padding: 4rem 1rem 2rem 2rem;
+    background-color: var(--third-color);
 }
 
 .article {
-    margin-bottom: 1rem;
+    margin: 0 2rem 1rem 2rem;
+    line-height: 1.3rem;
 }
 
 .article + p{
-    margin-bottom: 1rem;
+    margin: 0 2rem 2rem 2rem;
 }
 
 .form-container {
-    background-color: var(--third-color);
+    background-color: white;
     border-radius: 0.5rem;
-    padding: 1rem 1.5rem;
+    padding: 2rem;
 }
 
 .form-container p{
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
 }
 
 label {
     display: block;
-    font-size: 0.6rem;
+    font-size: 0.1rem;
+    color: #929191;
 }
 
 input[type='checkbox'] {
@@ -141,7 +144,7 @@ input[type='checkbox'] {
 .form-control {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5vh 10vh;
+    gap: 2.5vh 10vh;
 
 }
 
@@ -153,6 +156,15 @@ input[type='password'] {
     border: 1px solid #dddcdc;
     border-radius: 0.3rem;
     box-sizing: border-box;
-    height: 1rem;
+    height: 1.3rem;
     padding: 0.3rem 0.5rem;
+}
+
+/* use ':has' pseudo-class to change label color when input:focus */
+.form-control>div:has(input:focus) label{
+    color: black;
+}
+
+input:focus {
+    box-shadow: 2px 2px 3px silver;
 }
