@@ -40,15 +40,17 @@
                         <div>
                             <label for="phone">PHONE NUMBER</label>
                             <input type="tel" name="phone" id="phone" placeholder="860 123 1234" 
-                                pattern="\d{10}" title="Please provide telephone number in this format: 860 123 1234 ">
+                                pattern="\d{10}" title="Provide telephone number in this format: 860 123 1234 ">
                         </div>
                         <div>
                             <label for="pwd">PASSWORD *</label>
-                            <input type="password" name="pwd" id="pwd" required>
+                            <input type="password" name="pwd" id="pwd" required
+                                minlength="8" maxlength="20">
                         </div>
                         <div>
                             <label for="confirm">CONFIRM PASSWORD *</label>
-                            <input type="password" name="confirm" id="confirm" required>
+                            <input type="password" name="confirm" id="confirm" required
+                                minlength="8" maxlength="20">
                         </div>
                     </div>
                     <div class="terms">
