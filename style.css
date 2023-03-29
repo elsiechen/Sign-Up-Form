@@ -169,10 +169,6 @@ input:focus {
     box-shadow: 2px 2px 3px silver;
 }
 
-.terms {
-    margin-bottom: 1rem;
-}
-
 a{
     color: var(--fourth-color);
     text-decoration: underline;
@@ -244,3 +240,10 @@ input[type="checkbox"] {
 input[type="checkbox"]:hover {
     cursor: pointer;
 } 
+
+.error {
+    font-size: 0.5rem;
+    color: red;
+    margin-top: 3px;
+}
+
