@@ -54,14 +54,13 @@
                         </div>
                     </div>
                     <div class="terms">
-                        <input type="checkbox" value="", name='terms',
-                            onchange="document.querySelector('.sign-up-btn').disabled = !this.checked;">
+                        <input type="checkbox" value="" name='terms' id="terms" required>
                         <label for="terms">I agree all statements in 
                             <a href="">Terms of service</a> 
                         </label>
                     </div>
-                    <div class="sign-up-btn">
-                        <button type="submit">Create Account</button>
+                    <div>
+                        <button type="submit" id="sign-up-btn" class="sign-up-btn">Create Account</button>
                     </div>
                     <p class="direct-to-login">Already have an account? <a href="">Login here</a></p>
                 </form>

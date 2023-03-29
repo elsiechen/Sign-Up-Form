@@ -180,7 +180,7 @@ label[for='terms'] {
     display: inline;
 }
 
-.sign-up-btn button {
+.sign-up-btn {
     background-color: var(--second-color);
     color: var(--third-color);
     padding: 0.7rem 2.5rem;
@@ -216,11 +216,18 @@ p.direct-to-login {
 :-ms-input-placeholder {
     color: var(--fourth-color);
 }
-  
-/* input:invalid {
+
+
+input:invalid {
     border: 2px solid red;
 }
 
-input:invalid:required {
-    background-image: linear-gradient(to right, var(--third-color), var(--main-color));
-} */
+input[type="checkbox"] {
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+} 
