@@ -191,6 +191,12 @@ label[for='terms'] {
     margin: 1rem 0 2rem 0;
 }
 
+.sign-up-btn:hover {
+    cursor: pointer;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    border: 2rem transparent var(--second-color);
+}
 p.direct-to-login {
     font-size: 0.1rem;
     color: var(--fourth-color);
