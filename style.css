@@ -196,3 +196,24 @@ p.direct-to-login {
     color: var(--fourth-color);
 }
 
+/* prefixed for browser compatibility */
+/* Standard */
+::placeholder {
+    color: var(--fourth-color);
+}
+  
+/* Firefox */
+::-moz-placeholder {
+    color: var(--fourth-color);
+}
+  
+/* WebKit-based */
+::-webkit-input-placeholder {
+    color: var(--fourth-color);
+}
+  
+/* Internet Explorer */
+:-ms-input-placeholder {
+    color: var(--fourth-color);
+}
+  
