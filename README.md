@@ -3,7 +3,8 @@ This is a simple sign-up form created with HTML, CSS, and JavaScript. It allows 
 
 ## Table of Contents
 - Demo
-Check out the [live]() demo.
+Check out the [live](https://elsiechen.github.io/Sign-Up-Form/
+) demo.
 ## Technologies Used
 - HTML
 - CSS
