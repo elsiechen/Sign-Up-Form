@@ -3,8 +3,13 @@ This is a simple sign-up form created with HTML, CSS, and JavaScript. It allows 
 
 ## Table of Contents
 - Demo
+- Technologies Used
+- Features
+- Credits
+## Demo
 Check out the [**live**](https://elsiechen.github.io/Sign-Up-Form/
 ) demo.
+
 ## Technologies Used
 - HTML
 - CSS
@@ -18,4 +23,6 @@ Check out the [**live**](https://elsiechen.github.io/Sign-Up-Form/
 - Styling form to show invalid inputs from valid ones to help user finish the form
 - Use CSS custom property to set a few theme colors instead of having to update every single instance of a specific value
 ## Credits
-The Odin Project: [Sign-Up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
+- The Odin Project: [Sign-Up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
+- Coffee logo by [pngtree](https://pngtree.com/element/down?id=NjAxOTc3MQ==&type=1&time=1679968959&token=NWQ2NTNjMmU3NTczOThhNjY0MDIwZmYzYzk0ZWRhOWI=&t=0)
+- Custom fonts from [dafont.com](https://www.dafont.com/moms-typewriter.font?text=sweetsmile&back=theme)
