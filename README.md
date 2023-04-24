@@ -1,6 +1,8 @@
 # Sign-Up-Form
 This is a simple sign-up form created with HTML, CSS, and JavaScript. It allows users to input their name, email, and password to create a new account.
 
+![App Image](app.png)
+
 ## Table of Contents
 - Demo
 - Technologies Used
